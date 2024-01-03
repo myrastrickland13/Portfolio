@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+    <!--HEAD-->
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width">
+        <title>Myranda Strickland</title>
+        <link rel="stylesheet" type="text/css" href="stylesheet/portfolio.css">
+    </head>
+
+    <!--BODY-->
+    <body class="Background">
+
+        <!--NAVBAR-->
+        <div class="Navbar">
+            <a class="active" href="#Home">Home</a>
+            <a href="#About">About</a>
+            <a href="#Github">GitHub</a>
+            <a href="#Contact">Contact</a>
+        </div>
+
+        <!--Breaks inserted to add space between nav and heading-->
+        <br>
+        <br>
+
+        <!--BACKGROUND VIDEO-->
+        <div id="Home">
+            <video autoplay muted loop id="Typing_Video">
+                <source src="Images/covervid.mp4" type="video/mp4">
+                <!--Display text if video does not run-->
+                Your browser does not support HTML5 video.
+            </video>
+        </div>
+
+        <!--VIDEO TEXT-->
+        <div class="Video_Text">
+            <h1 class="white-text">Myranda's Portfolio</h1>
+            <strong>
+                <p class="center">
+                    <q>I really think that if we change our own approach and thinking about what we have available to us,
+                        <br>that is what will unlock our ability to truly excel in security. It's a perspective exercise.
+                        <br>What would it look like if abundance were the reality and not resource constraint?
+                    </q>
+                    <br>-Greg York
+                    <br>
+                    <br>My name is Myranda Strickland. Welcome to my portfolio website. On it, I will tell you about my background and experience.
+                    <br>
+                    <br>Thank you for stopping by and enjoy!
+                </p>
+            </strong>
+        </div>
+
+        <!--ABOUT SECTION-->
+        <div class="Row" id="About">
+            <!--LEFT COLUMN-->
+            <div class="Column_2">
+                <img src="Images/About.png" alt="An image of a stack of books and coffee">
+            </div>
+            <!--RIGHT COLUMN-->
+            <div class="Column_1">
+                <h1>About</h1>
+                <p>
+                    I am training in cyber security as well as learning the basics of HTML, CSS, and JavaScript.
+                    <br>This is all through <a href="https://www.learncodinganywhere.com" target="_blank"> The Tech Academy's</a> Cyber Security Boot Camp.
+                    <br>
+                    <br>I enjoy reading, traveling, expanding my knowledge of cultures, and going to concerts in my spare time.
+                    <br>
+                    <br> As we continue this nonstop battle within the cyber universe, I would love to work with you to progress in cyber security.
+                    <br> <a href="Contact">Contact</a> me below!
+                </p>
+            </div>
+        </div>
+
+        <!--GITHIB SECTION-->
+        <div class="Row" id="Github">
+            <!--LEFT COLUMN-->
+            <div class="Column_1">
+                <h1>GitHub</h1>
+                <p>
+                    You can view my coding projects on my GitHub profile here:
+                    <br>
+                    <p class="center"><a href="https://github.com/myrastrickland13" target="_blank">Myranda's GitHub</a></p>
+                </p>
+            </div>
+            <!--RIGHT COLUMN-->
+            <div class="Column_2">
+                <a href="https://github.com/myrastrickland13" target="_blank"><img src="Images/github.png" alt="GitHub Logo"></a>
+            </div>
+        </div>
+
+        <!--CONTACT SECTION-->
+        <div class="Row" id="Contact">
+            <!--CONTACT IMAGE, LEFT COLUMN-->
+            <div class="Column_2 Column_tall">
+                <img src="Images/contact.png" alt="Contact Image">
+            </div>
+            <!--CONTACT FORM, RIGHT COLUMN-->    
+            <div class="Column_1 Column_tall">
+                <h1>Contact</h1>
+                <!--This specifies where and how to send the form data-->
+                <form action="https://formspree.io/f/meqyqkvo" method="POST">
+                    <label>Name:</label>
+                        <input type="text" placeholder="Please enter your name here">
+                    <label>Email:</label>
+                        <input type="text" id="Email" name="Email" placeholder="Please enter your email here">
+                    <label>Message:</label>
+                        <input type="text" id="Message" name="Message" placeholder="Please enter your message here">
+                        <input type="submit" value="SUBMIT">
+                </form>
+            </div>
+        </div>
+
+        <!--FOOTER SECTION-->
+        <footer>
+            <p>
+                <p class="center"><a href="https://github.com/myrastrickland13" target="_blank">Myranda Strickland</a></p>
+                    <br>
+            </p>
+        </footer>
+    </body>
+</html>
